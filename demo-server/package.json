@@ -1,0 +1,16 @@
+{
+  "name": "socketio-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node app"
+  },
+  "author": "Osei Fortune",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}

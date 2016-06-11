@@ -1,0 +1,17 @@
+<ActionBar>
+    <ActionItem (tap)="logOut()" text="Logout"></ActionItem>
+</ActionBar>
+<GridLayout columns="2*,*" rows="auto, *">
+    <TextField hint="Enter text" [(ngModel)]="textMessage" row="0"></TextField>
+    <Button col="1" text="Add" (tap)="sendText()" row="0"></Button>
+
+    <ListView id="lv" [items]="list" colSpan="2" row="1">
+        <template let-item="item">
+            <GridLayout columns="*,*,*" class="messages">
+                <Label [text]="item.username"></Label>
+                <Label [text]="item.message" col="1"></Label>
+                <Label [text]="item.timeStamp | timeFromNow" col="2"></Label>
+            </GridLayout>
+        </template>
+    </ListView>
+</GridLayout>
