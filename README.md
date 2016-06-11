@@ -17,6 +17,8 @@ npm run start
 
 ##App Setup
 
+![note]: use adb reverse tcp:3000 tcp:3000 to connect to the local server
+
 ```
 cd nativescript-ng2-socketio-demo
 cd nativescript-ng2-socketio-demo
