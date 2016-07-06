@@ -20,7 +20,7 @@
     "@ngrx/core": "^1.0.0",
     "moment": "^2.13.0",
     "nativescript-angular": "0.1.6",
-    "nativescript-socketio": "^1.1.3",
+    "nativescript-socketio": "^1.1.5",
     "tns-core-modules": "^2.0.0"
   },
   "devDependencies": {
