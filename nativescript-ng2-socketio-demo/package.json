@@ -6,7 +6,9 @@
   "nativescript": {
     "id": "org.nativescript.nativescriptng2socketiodemo",
     "tns-android": {
-      "version": "2.0.0"
+      "version": "2.1.1"
+    },"tns-ios":{
+      "version":"2.1.0"
     }
   },
   "dependencies": {
@@ -20,7 +22,7 @@
     "@ngrx/core": "^1.0.0",
     "moment": "^2.13.0",
     "nativescript-angular": "0.1.6",
-    "nativescript-socketio": "^1.1.5",
+    "nativescript-socketio": "^2.0.2",
     "tns-core-modules": "^2.0.0"
   },
   "devDependencies": {
